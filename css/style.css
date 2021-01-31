@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Lora:wght@400;700&display=swap');
+</style>
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+</style>
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url../fonts1/-SemiBold.woff2') format('woff2'),
+        url../fonts1/-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url../fonts1/-Regular.woff2') format('woff2'),
+        url../fonts1/-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+	 src: url../fonts1/-LightItalic.woff2') format('woff2'),
+		  url../fonts1/-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+/*  Стили обнуления */
+*,
+*::before,
+*::after{
+margin:0;
+padding:0;
+border:0;
+}
+	li{
+		list-style: none;
+}
+
+a,
+a:visited {
+text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: inherit;
+	font-size:inherit;		
+}
+img{
+	vertical-align: top;
+}
+body {
+	color:hsl(0, 72%, 38%);
+	font-family: 'Lato', sans-serif;
+	line-height: 250%;
+}
+/* ......................... */
+
+/* Cвойства шрифта */
+.text{
+	font-size: 20px;
+	 text-shadow: 1px 2px 2px #000;
+}
+.title {
+	color: #10375c;
+	font-family: Lora;
+	font-weight:700;
+	font-size: 32px;
+	list-style: height 134%;
+	text-indent: 50px;
+}
+.title span {
+	color:#dd2c00ec;
+	text-shadow: 1px 2px 1px #000;
+}
+.title_red {
+	 color:rgba(221, 44, 0, 0.172);
+	}
+.arial-text {
+	color: green;
+	text-shadow: 3px 2px 3px rgba(17, 220, 10, 0.652),1px 1px 2px rgba(6, 10, 123, 0.666) ;
+	letter-spacing: 0,3;
+}
+.text1 {
+	color:royalblue
+}
+.footer{
+	color:orangered;
+}
+.subtitle{
+	font-size: 24px;
+	color: purple;
+}
+.subaraial-text{
+	font-size: 24px;
+	color:midnightblue
+	word-spacing: 0,5;
+}
+.sad {
+	color: rgb(10, 10, 10);
+}
+.gilroy{
+	font-family:Gilroy;
+	font-weight:600;
+	font-style: italic;
+}
+.title {
+	color: #10375c;
+	font-family: Lora;
+	font-weight:700;
+	font-size: 32px;
+	list-style: height 134%;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.phone{
+	white-space: nowrap;
+}
